@@ -1,0 +1,6 @@
+projectKey=Mangesh_Python_Code_Coverage
+serverUrl=https://sonar.cybage.com
+serverVersion=7.9.1.27448
+dashboardUrl=https://sonar.cybage.com/dashboard?id=Mangesh_Python_Code_Coverage
+ceTaskId=AXugFm9PwPytlavb8mr4
+ceTaskUrl=https://sonar.cybage.com/api/ce/task?id=AXugFm9PwPytlavb8mr4
