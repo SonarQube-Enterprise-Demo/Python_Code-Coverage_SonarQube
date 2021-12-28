@@ -39,3 +39,6 @@ class TestClass:
         
     def test_add():
         assert add(3, 2) == 5
+    
+    def test_multiply():
+        assert multiply(3, 2) == 6
