@@ -1,5 +1,5 @@
 import pytest
-
+from app.py import add
 
 class TestClass:
     def Test_One(self):
@@ -36,3 +36,6 @@ class TestClass:
     @pytest.mark.one
     def test_uname(self):
         assert TestClass.uname("mangesh") == True
+        
+    def test_add():
+        assert add(3, 2) == 5
