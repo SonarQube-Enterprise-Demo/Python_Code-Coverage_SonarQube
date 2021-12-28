@@ -36,3 +36,9 @@ class TestClass:
     @pytest.mark.one
     def test_uname(self):
         assert TestClass.uname("mangesh") == True
+        
+    @pytest.mark.x
+    def test_mark_x(self)
+    e = 5
+    f = 5 
+    assert 10 - e == f
