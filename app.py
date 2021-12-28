@@ -25,6 +25,18 @@ def create_todo():
 def add(e:int, f:int) -> int
     return e + f
 
+def multiply(x: int, y: int) -> int:
+    """multiply two numbers together
+
+    Args:
+                    x (int): first number in the multiplication
+                    y (int): second number in the multiplication
+
+    Returns:
+                    int: product of x and y
+    """
+    return x * y
+
 if __name__ == "__main__":  # on running python app.py
     Schema()
     app.run(debug=True)  # run the flask app
