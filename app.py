@@ -22,6 +22,8 @@ def hello_name(name):
 def create_todo():
     return ToDoService().create(request.get_json())
 
+def add(e:int, f:int) -> int
+    return e + f
 
 if __name__ == "__main__":  # on running python app.py
     Schema()
